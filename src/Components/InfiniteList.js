@@ -50,7 +50,7 @@ function InfiniteList() {
                         <div class="card" >
                             <img src={items.thumbnailUrl} class="card-img-top" alt="..." />
                             <div class="card-body">
-                                <p class="card-text">{items.id}</p>
+                                <p class="card-text">{items.id}..</p>
                                 <p class="card-text">{items.title}</p>
                             </div>
                         </div>
