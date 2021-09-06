@@ -1,26 +1,25 @@
 {
   "files": {
-    "main.css": "/Infinite-Scroll/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/Infinite-Scroll/static/js/main.93ab944f.chunk.js",
-    "main.js.map": "/Infinite-Scroll/static/js/main.93ab944f.chunk.js.map",
-    "runtime-main.js": "/Infinite-Scroll/static/js/runtime-main.85a6ced7.js",
-    "runtime-main.js.map": "/Infinite-Scroll/static/js/runtime-main.85a6ced7.js.map",
+    "main.css": "/Infinite-Scroll/static/css/main.f3263778.chunk.css",
+    "main.js": "/Infinite-Scroll/static/js/main.08401e51.chunk.js",
+    "main.js.map": "/Infinite-Scroll/static/js/main.08401e51.chunk.js.map",
+    "runtime-main.js": "/Infinite-Scroll/static/js/runtime-main.8e17d7cb.js",
+    "runtime-main.js.map": "/Infinite-Scroll/static/js/runtime-main.8e17d7cb.js.map",
     "static/css/2.c490997a.chunk.css": "/Infinite-Scroll/static/css/2.c490997a.chunk.css",
-    "static/js/2.d08903a2.chunk.js": "/Infinite-Scroll/static/js/2.d08903a2.chunk.js",
-    "static/js/2.d08903a2.chunk.js.map": "/Infinite-Scroll/static/js/2.d08903a2.chunk.js.map",
-    "static/js/3.26965bc8.chunk.js": "/Infinite-Scroll/static/js/3.26965bc8.chunk.js",
-    "static/js/3.26965bc8.chunk.js.map": "/Infinite-Scroll/static/js/3.26965bc8.chunk.js.map",
+    "static/js/2.9aacf98b.chunk.js": "/Infinite-Scroll/static/js/2.9aacf98b.chunk.js",
+    "static/js/2.9aacf98b.chunk.js.map": "/Infinite-Scroll/static/js/2.9aacf98b.chunk.js.map",
+    "static/js/3.5c8aa61a.chunk.js": "/Infinite-Scroll/static/js/3.5c8aa61a.chunk.js",
+    "static/js/3.5c8aa61a.chunk.js.map": "/Infinite-Scroll/static/js/3.5c8aa61a.chunk.js.map",
     "index.html": "/Infinite-Scroll/index.html",
     "static/css/2.c490997a.chunk.css.map": "/Infinite-Scroll/static/css/2.c490997a.chunk.css.map",
-    "static/css/main.8c8b27cf.chunk.css.map": "/Infinite-Scroll/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.d08903a2.chunk.js.LICENSE.txt": "/Infinite-Scroll/static/js/2.d08903a2.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/Infinite-Scroll/static/media/logo.6ce24c58.svg"
+    "static/css/main.f3263778.chunk.css.map": "/Infinite-Scroll/static/css/main.f3263778.chunk.css.map",
+    "static/js/2.9aacf98b.chunk.js.LICENSE.txt": "/Infinite-Scroll/static/js/2.9aacf98b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.85a6ced7.js",
+    "static/js/runtime-main.8e17d7cb.js",
     "static/css/2.c490997a.chunk.css",
-    "static/js/2.d08903a2.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.93ab944f.chunk.js"
+    "static/js/2.9aacf98b.chunk.js",
+    "static/css/main.f3263778.chunk.css",
+    "static/js/main.08401e51.chunk.js"
   ]
 }
