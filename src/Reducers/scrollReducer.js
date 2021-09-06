@@ -1,20 +1,20 @@
-import { GET_NEXT_DATA, REQUEST_NEXT_DATA, FAILED_NEXT_DATA } from "../Actions/actionCreator";
+import { GET_NEXT_DATA, REQUEST_NEXT_DATA, FAILED_NEXT_DATA, LOG_OUT, LOG_IN } from "../Actions/actionCreator";
 
 const initialState = {
     nextData: [],
-    loading:false,
-    apiError:{}
+    loading: false,
+    apiError: {},
+    islogegdIn: false
 
 }
 
 export default function (state = initialState, action) {
     switch (action.type) {
         case GET_NEXT_DATA:
-            console.log("reducers data check", typeof(action.payload), action.payload);
             return {
                 ...state,
-                nextData:action.payload,
-                loader:false
+                nextData: action.payload,
+                loader: false
             }
         case REQUEST_NEXT_DATA:
             return {
@@ -25,7 +25,18 @@ export default function (state = initialState, action) {
             return {
                 ...state,
                 loader: false,
-                apiError:action.payload
+                apiError: action.payload
+            }
+        case LOG_OUT:
+            return {
+                ...state,
+                islogegdIn: false
+            }
+        case LOG_IN:
+            console.log("inside reducer login")
+            return {
+                ...state,
+                islogegdIn: true
             }
         default:
             return state;

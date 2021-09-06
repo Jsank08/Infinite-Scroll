@@ -4,6 +4,8 @@ import axios from "axios";
 export const GET_NEXT_DATA = "GET_NEXT_DATA";
 export const REQUEST_NEXT_DATA = "REQUEST_NEXT_DATA";
 export const FAILED_NEXT_DATA = "FAILED_NEXT_DATA";
+export const LOG_IN = "LOG_IN";
+export const LOG_OUT = "LOG_OUT";
 
 
 export function getNextPage(page) {
@@ -20,5 +22,20 @@ export function getNextPage(page) {
         })
       })
 
+  }
+}
+
+export function loggingIn () {
+  return dispatch => {
+    dispatch({
+      type:LOG_IN
+    })
+  }
+}
+export function loggingOut () {
+  return dispatch => {
+    dispatch({
+      type:LOG_OUT
+    })
   }
 }
